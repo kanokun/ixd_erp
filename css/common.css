@@ -1,0 +1,346 @@
+.btn-primary {
+	color:white !important;
+	cursor:pointer;
+	margin-bottom:5px;
+}
+
+.label-need:after {
+	content:"*";
+	color:red;
+}
+
+.td-btn>a {
+	float:right;
+}
+
+.td-text-right {
+	text-align:right;
+}
+
+.mask {
+	position:fixed;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-color:black;
+	z-index:10000;
+	opacity:0.5;
+	
+	-webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.hide {
+	opacity:0;
+}
+
+.none {
+	display:none;
+}
+
+.ui-dialog {
+	z-index:100000;
+	background-color:white;
+}
+
+.modal-content {
+	padding:20px;
+}
+
+.modal-body .row {
+	margin:0px;
+}
+
+.btn-draft-modal {
+	float:right;
+	margin-right:10px;
+}
+
+.dl-xls {
+	margin-right:20px;
+	margin-left:20px;
+}
+
+#label-consignment {
+	font-size:13px;
+}
+
+.row-text-right {
+	text-align:right;
+}
+
+.form-group-top {
+	margin-bottom:0px !important;
+}
+
+.table-condensed .prev, .table-condensed .next {
+}
+
+.nav-tabs {
+	padding-left:20px;
+}
+
+.nav-tabs > li {
+	padding: 5px 15px 5px 15px;
+}
+
+.nav-tabs > .active{
+	border-bottom: 0px;
+    background-color: white;
+    margin-bottom: -1px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+}
+
+.nav-login-info {
+	padding-top: 8px;
+	color:white;
+}
+
+.card-tab {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.card-inside {
+	margin:15px;
+}
+
+.card-toggle {
+	float:right;
+	cursor:pointer;
+	color:#545454;
+}
+
+.btn-add-schedule {
+	float:right;
+	cursor:pointer;
+	color:#545454;
+	margin-right:10px;
+}
+
+.monthly-indicator-wrap {
+	margin-top: 5px;
+}
+
+.monthly-indicator-wrap div {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	padding-left:5px !important;
+	height:25px !important;
+	text-align:left;
+}
+
+.monthly-day-number {
+	font-size:14px !important;
+}
+
+._hide {
+	display:none;
+}
+
+.date-radio {
+	padding:10px 0px 10px 30px;
+}
+
+.date-range-element {
+	margin-left:10px;
+	margin-top:9px;
+}
+
+.date-range-input {
+	display: inline-block;
+    width:130px;
+    height:auto !important;
+    text-align:center;
+    font-size:12px;
+}
+
+.card-footer-cost {
+	font-size:15px;
+	color:black !important;
+	text-align:right;
+	padding-right: 40px;
+}
+
+.listed-event i {
+	float:right;
+	cursor:pointer;
+}
+
+.monthly-day {
+	font-size:12px;
+	text-align:left;
+}
+
+.card-body-miniboard {
+	padding:0px;
+}
+
+.container-info {
+	float:left;
+	margin-bottom:10px;
+}
+
+.container-info-img {
+	border:1px solid #dddddd;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+
+.board-element-img {
+	width:50px;
+	height:50px;
+	border:1px solid #dddddd;
+}
+
+#tx_canvas span{
+	display:none;
+}
+
+.dataTable td, .dataTable th {
+	font-size:12px;
+}
+
+.draft-body {
+	max-width: 800px;
+}
+
+.draft-btn {
+	margin-bottom:50px;
+}
+
+.btn-allow {
+	margin-right:5px;
+	float:right;
+}
+
+.btn-reject {
+	float:right;
+}
+
+.btn-ok, .btn-cancel {
+	margin-top:10px;
+}
+
+.btn-hdraft-info-first {
+	margin-right:5px;
+}
+
+.modal-holiday-info table {
+	width:100%;
+}
+
+.modal-holiday-info th {
+	border:1px solid #eeeeee;
+	padding:5px 10px 5px 10px;
+	background-color:#fafafa;
+	font-size:12px;
+}
+
+.modal-holiday-info td {
+	border:1px solid #eeeeee;
+	padding:5px 10px 5px 10px;
+	font-size:12px;
+}
+
+.holiday-history-title {
+	padding:10px;
+	font-size:14px;
+}
+
+#ifr-hidden {
+	display:none;
+}
+
+.btn-secondary {
+	margin-bottom:5px;
+	cursor:pointer;
+}
+
+.arrTimeModal-date {
+	float:left;
+}
+
+.arrTimeModal-time {
+	margin-left:5px;
+	float:left;
+}
+
+.arrTimeModal-result {
+	margin-left:5px;
+	float:left;
+}
+
+.arrTimeModal-reason {
+	margin-top:10px;
+}
+
+.arrTimeModal-reason div {
+	margin-bottom:10px;
+}
+
+.card-body-icon {
+	right:-15px;
+}
+
+.card-body-icon i {
+	font-size:70px;
+}
+
+
+
+
+
+
+@page {
+	size: A4;
+	margin: 0;
+}
+
+@media print {
+	
+	html, body {
+		padding:0px !important;
+		margin:0px !important;
+		width: 210mm;
+		height: 297mm;
+	}
+	
+	#container-main {
+		margin: 0;
+		border: initial;
+		width: initial;
+		min-height: initial;
+		box-shadow: initial;
+		background: initial;
+	}
+
+	.hide-print {
+		display:none !important;
+	}
+	.visible-print {
+		display:block !important;
+		overflow:visible !important;
+		height:auto;
+	}
+	
+	.card {
+		padding:0px;
+		border:0px !important;
+		margin:0px;
+	}
+	
+	.container-fluid {
+		padding:0px;
+		margin:0px;
+	}
+	
+	.bg-dark {
+		background-color:white !important;
+	}
+}
+
